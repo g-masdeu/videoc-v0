@@ -46,22 +46,30 @@ Videoc es una aplicación web desarrollada con **Laravel** que permite a los usu
 3. Copia y configura el archivo .env:
   ```bash
   cp .env.example .env
+``
   Edita los datos de conexión a tu base de datos:
+```
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
   DB_PORT=3306
   DB_DATABASE=nombre_de_tu_base
   DB_USERNAME=usuario
   DB_PASSWORD=contraseña
+  ```
 4. Genera la clave de la aplicación:
   ```bash
   php artisan key:generate
+```
+
 5. Ejecuta migraciones y seeders:
   ```bash
   php artisan migrate --seed
+```
+
 6. Levanta el servidor local:
   ```bash
   php artisan serve
+```
 
 El correo y la constraseña para el admin son: admin@admin.es y contraseña: admin1234
 
