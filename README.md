@@ -46,7 +46,7 @@ Videoc es una aplicación web desarrollada con **Laravel** que permite a los usu
 3. Copia y configura el archivo .env:
   ```bash
   cp .env.example .env
-``
+```
   Edita los datos de conexión a tu base de datos:
 ```
   DB_CONNECTION=mysql
