@@ -38,9 +38,11 @@ Videoc es una aplicación web desarrollada con **Laravel** que permite a los usu
    ```bash
    git clone https://github.com/g-masdeu/videoc-v0.git
    cd videoc-v0
-2. Instala las dependencias
+   ```
+2. Instala las dependencias:
   ```bash
   composer install
+   ```
 3. Copia y configura el archivo .env:
   ```bash
   cp .env.example .env
